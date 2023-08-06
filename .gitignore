@@ -1,5 +1,10 @@
+.idea
+Thumbs.db*
+.DS_Store*
+HELP.md
 dist
 doc
+src1
 
 # Logs
 logs
