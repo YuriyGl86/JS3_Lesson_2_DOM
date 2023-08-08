@@ -1,11 +1,7 @@
-// TODO: write code here
+import Cell from './cell';
 
-// comment this to pass build
-const unusedVariable = "variable";
+const cell = new Cell(document.querySelector('table'));
 
-// for demonstration purpose only
-export default function demo(value) {
-  return `Demo: ${value}`;
-}
-
-console.log("app.js included");
+setInterval(() => {
+  cell.placeGoblin();
+}, 700);
